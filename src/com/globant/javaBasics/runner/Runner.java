@@ -42,7 +42,7 @@ public class Runner {
                     System.out.print("Type the age of the new student: ");
                     scan = new Scanner(System.in);
                     int newStudentAge = scan.nextInt();
-                    System.out.println("Type the name of the group where you want to add the new student: ");
+                    System.out.println("Type the number of the group where you want to add the new student: ");
                     printGroupsNames(myUniversity.getGroupsList());
                     scan = new Scanner(System.in);
                     int index = scan.nextInt() - 1;
